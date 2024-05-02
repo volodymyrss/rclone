@@ -7,8 +7,10 @@ import (
 	"fmt"
 	"runtime"
 
-	"bazil.org/fuse"
-	fusefs "bazil.org/fuse/fs"
+	// "github.com/volodymyrss/fuse"
+	"github.com/volodymyrss/fuse"
+	fusefs "github.com/volodymyrss/fuse/fs"
+
 	"github.com/rclone/rclone/cmd/mountlib"
 	"github.com/rclone/rclone/fs"
 	"github.com/rclone/rclone/vfs"

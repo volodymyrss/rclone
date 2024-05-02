@@ -6,8 +6,8 @@ import (
 	"context"
 	"io"
 
-	"bazil.org/fuse"
-	fusefs "bazil.org/fuse/fs"
+	"github.com/volodymyrss/fuse"
+	fusefs "github.com/volodymyrss/fuse/fs"
 	"github.com/rclone/rclone/fs/log"
 	"github.com/rclone/rclone/vfs"
 )
